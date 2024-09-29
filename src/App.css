@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dropdown {
+  max-height: 0; /* Collapsed */
+  opacity: 0; /* Fully transparent */
+  transform: translateY(-10px); /* Slight upward slide */
+  transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+/* When the dropdown is active */
+.dropdown.show {
+  max-height: auto; /* Set to a maximum height, adjust this value as needed */
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Moves back into place */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.swiper-pagination-bullet{
+ width: 30px !important;
+ height: 3px !important;
+ border-radius: 0px !important;
+ margin: 10px !important;
+}
+
+@media (max-width:600px) {
+  .swiper-pagination-bullet{
+    width: 10px !important;
+    height: 2px !important;
+    border-radius: 0px !important;
+    margin: 5px !important;
+   }
+}
+.swiper-pagination-bullet-active{
+  background-color: rgb(19, 26, 19) !important;
+}
+.button-bg{
+ background:linear-gradient(135deg, #758cff 0%, #294dff 100%) ; 
+}
+.button-hover{
+  background: linear-gradient(135deg, #758cff 0%, #294dff 100%);
+}
+
+
+.element {
+  transition: all 0.2s ease 0s;
+  /* other styles */
+}
+
+/* Hover state */
+.element:hover {
+  transform: translateY(-2px);
+  
+  box-shadow: rgb(235, 171, 107) 0px 4px 12px;         /* Example: fading the element slightly */
+}
+
+.element2 {
+  transition: all 0.2s ease 0s;
+  /* other styles */
+}
+
+/* Hover state */
+.element2:hover {
+  transform: translateY(-2px);
+  
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;        /* Example: fading the element slightly */
+}
+
+.element3:hover {
+  transform: translateY(-2px);
+  
+  box-shadow: rgba(45, 130, 234, 0.533) 0px 4px 12px;        /* Example: fading the element slightly */
+}

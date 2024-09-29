@@ -1,0 +1,21 @@
+[
+    {
+      "price": "5%",
+      "description": "for more than $500",
+      "color": "#4262ff",
+      "bg": "#e4f0fd"
+    },
+    {
+      "price": "10%",
+      "description": "for more than $1000",
+      "color": "#ffd02f",
+      "bg": "#fff4ce"
+    },
+    {
+      "price": "10%",
+      "description": "for more than $2000",
+      "color": "#ed6f78",
+      "bg": "#ffe3e5"
+    }
+  ]
+  

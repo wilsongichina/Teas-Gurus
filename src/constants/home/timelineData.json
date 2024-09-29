@@ -1,0 +1,33 @@
+[
+    {
+      "title": "2. Computer Access",
+      "description": "Download and install AnyDesk on your MacBook or Windows by visiting the official AnyDesk website. Once you install it, copy the code and share it with us. We will access your device and start installing the respondus bypass software.",
+      "icon": "/calender.webp"
+    },
+    {
+      "title": "1. Register for The Online/Remote Exam",
+      "description": "To register for the TEAS exam, visit www.atitesting.com and select I AM PREPARING FOR OR TAKING THE TEAS. Click on Exam Registration, choose Register under the Remote Online option, and select ATI Remote Proctor. Then, choose your preferred date and time, review your details, create an account if necessary, and enter your payment information to complete your registration.",
+      "icon": "/cards.webp"
+    },
+    {
+      "title": "4. ATI TEAS Dry Run Assessment",
+      "description": "We will conduct a dry run test to ensure that the bypass software works in readiness for the real/actual exam. This is important to ensure that you're versed with the process.",
+      "icon": "/heart.webp"
+    },
+    {
+      "title": "3. Bypass Software Installation",
+      "description": "We will remotely access your MacBook or Windows laptop to execute commands on your Mac or install software on your Windows device, allowing us to bypass security measures. We want to clarify that our software does not interfere with your exam content or alter your responses in any manner. Its primary purpose is to ensure a seamless proctoring experience for both you and our team.",
+      "icon": "/notes.webp"
+    },
+    {
+      "title": "6. Make Payment",
+      "description": "When taking the Online/Remote Teas Exam, the exam results are available immediately you finish the exam. You'll make the full payment once you pass the exam.",
+      "icon": "/pen.webp"
+    },
+    {
+      "title": "5. Exam Taking",
+      "description": "On the day of the exam, you will simply sit back and act as though you're taking the test while we control the mouse and complete it for you.",
+      "icon": "/mark.webp"
+    }
+  ]
+  

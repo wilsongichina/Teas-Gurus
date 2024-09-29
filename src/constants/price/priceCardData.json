@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Full TEAS Taking Service",
+    "price": "Starting from $500",
+    "description": [
+      "Guaranteed 88%",
+      "Regular Progress Updates",
+      "Flexible Payment Plans Available"
+    ],
+    "color": "#4262ff"
+  },
+  {
+    "title": "TEAS Tests & Quizzes",
+    "price": "Starting from $150",
+    "description": [
+      "Guaranteed 88%",
+      "Fast Turnaround Time",
+      "Real TEAS Exams",
+      "No Payment Plans Available"
+    ],
+    "color": "#ffd02f"
+  },
+  {
+    "title": "Full Classes",
+    "price": "Starting from",
+    "description": [
+      "Guaranteed 'A' or 'B'",
+      "Status Updates",
+      "Payment Plans Available"
+    ],
+    "color": "#6e9240"
+  }
+]
