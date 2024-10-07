@@ -78,7 +78,7 @@ const Home = () => {
               Ace your TEAS test from the comfort of home with our expert
               assistance—safe, secure, and guaranteed to pass.
             </p>
-            <p className="text-center mt-2   ">No upfront fees, guaranteed success!</p>
+            <p className="text-center mt-2 font-bold">No upfront fees, guaranteed success!</p>
             <a href="https://web.whatsapp.com/send?phone=15795011983&text=Hello%2C%0AI%20need%20assistance%20with%20my%20TEAS%20exam" className="flex justify-center items-center">
             <div className="flex gap-2 bg-green-700 p-4 rounded-full  mt-4  ">
             <IoLogoWhatsapp className="text-[30px] text-white "/>

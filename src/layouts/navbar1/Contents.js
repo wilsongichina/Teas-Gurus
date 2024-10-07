@@ -4,9 +4,11 @@ import React, { useCallback, useState } from 'react'
 import { Box, Modal, Slide } from "@mui/material";
 import QuoteForm from "../../components/quoteForm/QuoteForm";
 import { FaTimes } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const Contents = React.memo(() => {
   const [show, setShow] = useState(false);
+  const navigate = useNavigate()
 
   const handleShowVideo = useCallback(() => setShow(true), []);
   const handleHideVideo = useCallback(() => setShow(false), []);
@@ -27,13 +29,13 @@ const Contents = React.memo(() => {
        
       <button onClick={handleOpen} className='bg-[#f7a72b] px-5 py-3 text-white rounded-[30px] font-[500] element'>Get a Free Quote <ArrowForward sx={{color:'white'}}/> </button>
 
-      <button onClick={()=>setShow(true)} className='pl-1 py-1 pr-5 text-black rounded-[30px] font-[500] border border-[rgba(0,0,0,0.3)] hover:bg-white flex items-center gap-2 element2'> 
+      <button onClick={()=>navigate("/How-it-Works")} className='pl-1 py-1 pr-5 text-black rounded-[30px] font-[500] border border-[rgba(0,0,0,0.3)] hover:bg-white flex items-center gap-2 element2'> 
         <div style={{border:'1px solid rgba(0,0,0,0.3)',borderRadius:'20px',height:'40px',width:'40px',}} className='flex justify-center items-center bg-white'>
         <PlayArrow sx={{color:'blue'}}/>  
         </div>
         How it Works </button>
 
-        {show && (
+        {/* {show && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black/20 z-50" aria-hidden={true}>
                     <div
                         className="relative rounded-lg shadow-lg max-[345px]:w-[315px] h-[228px] w-[360px] sm:w-[700px] sm:h-[450px] xl:w-[1000px] xl:h-[560px] smm:mx-4">
@@ -57,7 +59,7 @@ const Contents = React.memo(() => {
                         </div>
                     </div>
                 </div>
-            )}
+            )} */}
 
 <Modal
         open={open}
