@@ -53,7 +53,7 @@ const Header = ({ show, setShow }) => {
                 location.pathname === '/How-it-Works' && 'text-[#294dff]'
               } font-[500] cursor-pointer text-black`}
             >
-              How it works
+              How it Works
         </div>
 
         {/* <div
@@ -97,7 +97,7 @@ const Header = ({ show, setShow }) => {
                 location.pathname === "/How-it-Works" && "text-[#294dff]"
               } font-[500] cursor-pointer text-black`}
             >
-              How it works
+              How it Works
             </div>
           </div>
         )}
