@@ -24,7 +24,7 @@ const Navbar1 = React.memo(() => {
   const navigationItems = useMemo(() => [
     { label: "Home", path: "/" },
     { label: "About Us", path: "/about"},
-    { label: "How it Works", path: "/how-its-work" },
+    { label: "How it Works", path: "/How-it-Works" },
     { label: "Prices", path: "/prices" },
     { label: "FAQS", path: "/faq" },
     // { label: "Blog", path: "/blog" },

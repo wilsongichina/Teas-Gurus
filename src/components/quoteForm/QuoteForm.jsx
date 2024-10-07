@@ -4,10 +4,10 @@ import { useState } from "react";
 import { useForm } from "@formspree/react";
 import { useNavigate } from "react-router-dom";
 
-const QuoteForm = ({ handleClose }) => {
+const QuoteForm = ({  }) => {
   const navigate = useNavigate();
   const [state, handleSubmit] = useForm("mnnaewpy");
-  
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -26,7 +26,7 @@ const QuoteForm = ({ handleClose }) => {
   };
 
   if (state.succeeded) {
-    handleClose();
+    // handleClose();
     navigate("/thanks");
     return <p>Thanks for your submission!</p>;
   }
@@ -63,7 +63,7 @@ const QuoteForm = ({ handleClose }) => {
         {/* Close button */}
         <button
           className="absolute top-1 right-4 text-2xl text-gray-400 hover:text-black"
-          onClick={handleClose}
+          // onClick={handleClose}
         >
           ✖
         </button>

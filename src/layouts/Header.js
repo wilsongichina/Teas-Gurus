@@ -6,44 +6,17 @@ import QuoteForm from '../components/quoteForm/QuoteForm';
 
 const Header = ({ show, setShow }) => {
 
+  
 
   const navigation = useNavigate();
   const [company, setCompany] = useState(false);
   const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+  const handleMenu = useCallback(() => setShow(prev => !prev), []);
 
   const location = useLocation();
-
-  const handleMenu = useCallback(() => setShow(!show), [setShow, show]);
-  const handleOpen = useCallback(() => setOpen(true), []);
-  const handleClose = useCallback(() => setOpen(false), []);
-  const toggleCompany = useCallback(() => setCompany(prev => !prev), []);
-
-  const companyUrl = useMemo(() => ['/about', '/faq', '/how-its-work'], []);
-
-  const navItems = useMemo(() => [
-    { label: 'Home', path: '/' },
-    { label: 'Prices', path: '/prices' },
-    { label: 'Blog', path: '/blog' },
-  ], []);
-
-  const companyItems = useMemo(() => [
-    { label: 'About Us', path: '/about' },
-    { label: 'FAQS', path: '/faq' },
-    { label: 'How it Works', path: '/how-its-work' },
-  ], []);
-
-  const renderNavItem = useCallback((item) => (
-    <div
-      key={item.path}
-      onClick={() => navigation(item.path)}
-      className={`${
-        location.pathname === item.path && 'text-[#294dff]'
-      } font-[500] cursor-pointer text-black`}
-    >
-      {item.label}
-    </div>
-  ), [location.pathname, navigation]);
-
+  const companyUrl = ["/about", "/faq", "/How-it-Works"];
   return (
     <div className="flex justify-between items-center">
       <a
@@ -74,15 +47,15 @@ const Header = ({ show, setShow }) => {
             >
               About Us
         </div>
-
         <div
-              onClick={() => navigation('/how-its-work')}
+              onClick={() => navigation('/How-it-Works')}
               className={`${
-                location.pathname === '/how-its-work' && 'text-[#294dff]'
+                location.pathname === '/How-it-Works' && 'text-[#294dff]'
               } font-[500] cursor-pointer text-black`}
             >
               How it works
         </div>
+
         {/* <div
           onMouseEnter={() => setCompany(!company)}
           className={`${
@@ -91,13 +64,13 @@ const Header = ({ show, setShow }) => {
         >
           Company
           <KeyboardArrowDown />
-        </div> */}
+        </div>  */}
         {company && (
           <div
             onMouseLeave={() => setCompany(!company)}
             className="absolute w-[200px] h-auto bg-white top-[160px] p-5 flex flex-col gap-4 rounded-md"
           >
-            {/* <div
+            <div
               onClick={() => navigation('/about')}
               className={`${
                 location.pathname === '/about' && 'text-[#294dff]'
@@ -110,22 +83,22 @@ const Header = ({ show, setShow }) => {
         </div>
 
         <div
-              onClick={() => navigation('/how-its-work')}
+              onClick={() => navigation('/faq')}
               className={`${
-                location.pathname === '/how-its-work' && 'text-[#294dff]'
+                location.pathname === '/faq' && 'text-[#294dff]'
               } font-[500] cursor-pointer text-black`}
             >
               Faqs
             </div>
 
             <div
-              onClick={() => navigation('/how-its-work')}
+              onClick={() => navigation("/How-it-Works")}
               className={`${
-                location.pathname === '/how-its-work' && 'text-[#294dff]'
+                location.pathname === "/How-it-Works" && "text-[#294dff]"
               } font-[500] cursor-pointer text-black`}
             >
               How it works
-            </div> */}
+            </div>
           </div>
         )}
         
@@ -181,7 +154,7 @@ const Header = ({ show, setShow }) => {
       {/* Modal Implementation */}
       <Modal
         open={open}
-        onClose={handleClose}
+        // onClose={handleClose}
         aria-labelledby="quote-form-modal"
         aria-describedby="quote-form"
         disableEnforceFocus
