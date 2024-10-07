@@ -48,7 +48,7 @@ function AppContent() {
 
       <div className="fixed left-5 bottom-5 flex  ">
         <a
-          href="https://web.whatsapp.com/send?phone=15795011983&text=Hello%2C%0AI%20need%20assistance%20with%20my%20TEAS%20exam"
+          href="https://api.whatsapp.com/send?phone=15795011983&text=Hello%2C%0AI%20need%20help%20with%20my%20TEAS%20exam.%20"
           className=" p-2 px-5 gap-3 w-full   bg-[#25D366] shadow-lg  rounded-full flex justify-center items-center    "
         >
           <IoLogoWhatsapp className="sm:size-6  text-white  " />

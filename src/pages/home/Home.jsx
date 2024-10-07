@@ -79,7 +79,7 @@ const Home = () => {
               assistance—safe, secure, and guaranteed to pass.
             </p>
             <p className="text-center mt-2 font-bold">No upfront fees, guaranteed success!</p>
-            <a href="https://web.whatsapp.com/send?phone=15795011983&text=Hello%2C%0AI%20need%20assistance%20with%20my%20TEAS%20exam" className="flex justify-center items-center">
+            <a href="https://api.whatsapp.com/send?phone=15795011983&text=Hello%2C%0AI%20need%20help%20with%20my%20TEAS%20exam.%20" className="flex justify-center items-center">
             <div className="flex gap-2 bg-green-700 p-4 rounded-full  mt-4  ">
             <IoLogoWhatsapp className="text-[30px] text-white "/>
             <p className="text-center font-bold text-white   ">Click Here to Chat With Us on WhatsApp!</p>
