@@ -30,7 +30,7 @@ const Navbar3 = () => {
     const navItems = useMemo(() => [
       { title: 'Home',url:"/" },
       { title: 'About Us',url:"/about"},
-      { title: 'How it Works',url:"/How-it-Works" },
+      { title: 'How it Works',url:"/how-it-works" },
       { title: 'Prices',url:"/prices" },
       { title: 'FAQS',url:"/faq" },
       // { title: 'Blog',url:"/blog" },

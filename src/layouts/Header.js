@@ -48,9 +48,9 @@ const Header = ({ show, setShow }) => {
               About Us
         </div>
         <div
-              onClick={() => navigation('/How-it-Works')}
+              onClick={() => navigation('/how-it-works')}
               className={`${
-                location.pathname === '/How-it-Works' && 'text-[#294dff]'
+                location.pathname === '/how-it-works' && 'text-[#294dff]'
               } font-[500] cursor-pointer text-black`}
             >
               How it Works
@@ -92,9 +92,9 @@ const Header = ({ show, setShow }) => {
             </div>
 
             <div
-              onClick={() => navigation("/How-it-Works")}
+              onClick={() => navigation("/how-it-works")}
               className={`${
-                location.pathname === "/How-it-Works" && "text-[#294dff]"
+                location.pathname === "/how-it-works" && "text-[#294dff]"
               } font-[500] cursor-pointer text-black`}
             >
               How it Works

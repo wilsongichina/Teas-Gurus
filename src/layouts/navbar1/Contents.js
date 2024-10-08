@@ -29,7 +29,7 @@ const Contents = React.memo(() => {
        
       <button onClick={handleOpen} className='bg-[#f7a72b] px-5 py-3 text-white rounded-[30px] font-[500] element'>Get a Free Quote <ArrowForward sx={{color:'white'}}/> </button>
 
-      <button onClick={()=>navigate("/How-it-Works")} className='pl-1 py-1 pr-5 text-black rounded-[30px] font-[500] border border-[rgba(0,0,0,0.3)] hover:bg-white flex items-center gap-2 element2'> 
+      <button onClick={()=>navigate("/how-it-works")} className='pl-1 py-1 pr-5 text-black rounded-[30px] font-[500] border border-[rgba(0,0,0,0.3)] hover:bg-white flex items-center gap-2 element2'> 
         <div style={{border:'1px solid rgba(0,0,0,0.3)',borderRadius:'20px',height:'40px',width:'40px',}} className='flex justify-center items-center bg-white'>
         <PlayArrow sx={{color:'blue'}}/>  
         </div>

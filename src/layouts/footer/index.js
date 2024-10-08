@@ -71,7 +71,7 @@ const Footer = React.memo(()=> {
                 <div className="text-[20px] font-[700] text-white">Company</div>
                 <div onClick={()=>navigate("/about")} className="text-[#999] font-[500] cursor-pointer">About Us</div>
                 <div onClick={()=>navigate("/faq")} className="text-[#999] font-[500] cursor-pointer">FAQS</div>
-                <div onClick={()=>navigate("/How-it-Works")} className="text-[#999] font-[500] cursor-pointer">How it Works</div>
+                <div onClick={()=>navigate("/how-it-works")} className="text-[#999] font-[500] cursor-pointer">How it Works</div>
               </div>
 
               <div className="flex flex-col gap-3">

@@ -39,7 +39,7 @@ function AppContent() {
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/about" element={<About />} />
-        <Route exact path="/How-it-Works" element={<HowItsWork />} />
+        <Route exact path="/how-it-works" element={<HowItsWork />} />
         <Route exact path="/faq" element={<Faq />} />
         <Route exact path="/prices" element={<Prices />} />
       </Routes>
