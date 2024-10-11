@@ -9,7 +9,7 @@ const Works = () => {
             How it Works ?
           </h1>
           <h1 className="font-bold text-green-700  text-center mt-4 ">
-            Work process of Teas Gurus
+          Work Process of Teas Gurus
           </h1>
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 mt-10 px-10  ">
             <div>

@@ -84,7 +84,7 @@ const Contents = React.memo(() => {
               >
                 <PlayArrow sx={{ color: "blue" }} />
               </div>
-              How it Works ?
+              How it Works
             </button>
 
             <button
