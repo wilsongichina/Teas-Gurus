@@ -59,7 +59,6 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
 
   /* Center slide text vertically */
   display: flex;
@@ -74,31 +73,30 @@
   object-fit: cover;
 } */
 
-.swiper-pagination-bullet{
- width: 30px !important;
- height: 3px !important;
- border-radius: 0px !important;
- margin: 10px !important;
+.swiper-pagination-bullet {
+  width: 30px !important;
+  height: 3px !important;
+  border-radius: 0px !important;
+  margin: 10px !important;
 }
 
-@media (max-width:600px) {
-  .swiper-pagination-bullet{
+@media (max-width: 600px) {
+  .swiper-pagination-bullet {
     width: 10px !important;
     height: 2px !important;
     border-radius: 0px !important;
     margin: 5px !important;
-   }
+  }
 }
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background-color: rgb(19, 26, 19) !important;
 }
-.button-bg{
- background:linear-gradient(135deg, #758cff 0%, #294dff 100%) ; 
-}
-.button-hover{
+.button-bg {
   background: linear-gradient(135deg, #758cff 0%, #294dff 100%);
 }
-
+.button-hover {
+  background: linear-gradient(135deg, #758cff 0%, #294dff 100%);
+}
 
 .element {
   transition: all 0.2s ease 0s;
@@ -108,8 +106,8 @@
 /* Hover state */
 .element:hover {
   transform: translateY(-2px);
-  
-  box-shadow: rgb(235, 171, 107) 0px 4px 12px;         /* Example: fading the element slightly */
+
+  box-shadow: rgb(235, 171, 107) 0px 4px 12px; /* Example: fading the element slightly */
 }
 
 .element2 {
@@ -120,12 +118,47 @@
 /* Hover state */
 .element2:hover {
   transform: translateY(-2px);
-  
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;        /* Example: fading the element slightly */
+
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; /* Example: fading the element slightly */
 }
 
 .element3:hover {
   transform: translateY(-2px);
-  
-  box-shadow: rgba(45, 130, 234, 0.533) 0px 4px 12px;        /* Example: fading the element slightly */
+
+  box-shadow: rgba(45, 130, 234, 0.533) 0px 4px 12px; /* Example: fading the element slightly */
+}
+
+.sliderclass {
+  height: 4px;
+  width: 10px;
+  background-color: #878787;
+}
+.swiper-pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-prev,
+.custom-next {
+  background-color: #ff7f0e;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+}
+
+.custom-prev {
+  left: 0%;
+}
+
+.custom-next {
+  right: 0%;
 }
