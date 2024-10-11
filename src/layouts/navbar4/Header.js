@@ -38,7 +38,7 @@ const Header = ({ show, setShow }) => {
           <span
             className={`${location.pathname === "/" ? "text-[#294dff]" : ""}`}
           >
-            Why Choose us
+           Why Choose Us 
           </span>
         </div>
 

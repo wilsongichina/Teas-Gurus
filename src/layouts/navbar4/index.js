@@ -64,7 +64,7 @@ const Navbar4 = React.memo(() => {
           <span
             className="" 
           >
-            Why Choose us
+          Why Choose Us
           </span>
         </div>
             <div
