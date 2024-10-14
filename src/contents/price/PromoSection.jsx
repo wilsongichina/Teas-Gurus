@@ -12,12 +12,13 @@ const PromoSection = React.memo(() => {
       {/* Left Text Section */}
       <div className="lg:w-3/4 mb-6 p-8 lg:mb-0 lg:p-10">
         <h1 className="text-3xl lg:text-4xl font-bold text-gray-900">
-        Are There Legit Online TEAS Tutors? 
+        Are These Legit Exact TEAS Questions?
           <br />
-          <span className="text-blue-700">Yes, Teas Gurus Is!! </span>
+          <span className="text-blue-700">Yes, They are Legit!!
+          </span>
         </h1>
         <p className="mt-4 text-gray-600">
-        With this in mind, we confidently assure you: 'Absolutely! You're investing in us to help you achieve at least a 90—nothing less!'"
+        With this in mind, we confidently assure you: 'Absolutely! You're investing in us to help you achieve at least a 90—nothing less!"
         </p>
         <button onClick={handleOpen} className="mt-6 button-bg text-white font-semibold py-2 px-6 rounded-full ease-in-out duration-200 shadow-md hover:button-hover transition-colors">
           Get a Free Quote &rarr;

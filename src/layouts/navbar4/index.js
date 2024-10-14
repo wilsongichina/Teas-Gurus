@@ -89,13 +89,13 @@ const Navbar4 = React.memo(() => {
               className=" cursor-pointer"
               onClick={() =>
                 window.open(
-                  "https://buy.stripe.com/bIYg11figfhN7nO4ic",
+                  "https://buy.stripe.com/4gw5mn0nm0mTfUk3",
                   "_blank"
                 )
               }
             >
               <button className="button-bg px-4 py-3 text-white rounded-[30px] font-[500] element3">
-                Buy Now - $149.99
+                Buy Now - $99
               </button>
             </div>
           </div>

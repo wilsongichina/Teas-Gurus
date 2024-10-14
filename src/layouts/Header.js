@@ -138,11 +138,19 @@ const Header = ({ show, setShow }) => {
         </div> */}
       </div>
 
-      <div className="lg:block hidden cursor-pointer" onClick={handleOpen}>
-        <button className="button-bg lg:px-5 py-3 text-white rounded-[30px] font-[500] element3">
-          Get a Free Quote
-        </button>
-      </div>
+      <div
+              className=" cursor-pointer"
+              onClick={() =>
+                window.open(
+                  "https://buy.stripe.com/4gw5mn0nm0mTfUk3",
+                  "_blank"
+                )
+              }
+            >
+              <button className="button-bg px-2 sm:px-4 sm:py-3 text-white rounded-[30px] sm:font-[500] element3">
+                Buy Now - $99
+              </button>
+            </div>
 
       <div className="lg:hidden flex gap-2 items-center">
         <div className="text-[18px] font-[500]">

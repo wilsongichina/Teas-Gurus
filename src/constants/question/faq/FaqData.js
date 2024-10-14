@@ -29,7 +29,7 @@ export const FaqData = [
       },
       {
         "title": "How much does the package cost?",
-        "Description": "The complete study guide package is priced at $149. If you would like us to take the exam on your behalf, we offer this service for $600."
+        "Description": "The complete study guide package is priced at $99. If you would like us to take the exam on your behalf, we offer this service for $600."
       },
       {
         "title": "Can I pay for someone to take the exam for me?",

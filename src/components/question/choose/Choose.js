@@ -13,7 +13,7 @@ const Choose = () => {
           </h1>
           <div className="flex flex-col  md:flex-row  md:justify-between md:gap-10 mt-8 ">
             <div className="md:w-[50%]">
-              <img src="/question/us.webp" className="h-[550px] w-[100%]" />
+              <img src="/question/11.jpg" className="h-[550px] w-[100%]" />
             </div>
             <div className="md:w-[50%] md:grid md:grid-cols-2  gap-10   ">
               <div className="p-5 md:p-0  w-[100%] shadow-md  rounded-xl  ">

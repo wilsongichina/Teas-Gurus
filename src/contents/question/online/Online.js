@@ -7,7 +7,7 @@ const Online = () => {
         <div className="w-[80%]">
           <div className="flex flex-col  md:flex-row md:justify-between gap-10 mt-4 ">
             <div className="md:w-[50%]">
-              <img src="/question/doer.webp" className="h-[550px] w-[100%]" />
+              <img src="/question/12.jpg" className="h-[550px] w-[100%]" />
             </div>
             <div className="md:w-[50%]">
               <h1 className="font-bold mt-[120px] text-center text-green-400">
@@ -57,7 +57,7 @@ const Online = () => {
               </p>
             </div>
             <div className="md:w-[50%]">
-              <img src="/question/doer.webp" className="h-[550px] w-[100%]" />
+              <img src="/question/13.jpg" className="h-[550px] w-[100%]" />
             </div>
           </div>
         </div>

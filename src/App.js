@@ -34,7 +34,7 @@ function AppContent() {
     "/faq",
     "/about",
     "/How-it-Works",
-    "/teas-exact",
+    "/teas",
   ];
 
   return (
@@ -45,7 +45,8 @@ function AppContent() {
         <Route exact path="/How-it-Works" element={<HowItsWork />} />
         <Route exact path="/faq" element={<Faq />} />
         <Route exact path="/prices" element={<Prices />} />
-        <Route exact path="/teas-exact" element={<Question />} />
+        <Route exact path="/teas" element={<Question />} />
+        <Route path="*" element={<Home />} />
       </Routes>
 
       {urls.includes(location.pathname) ? <Footer2 /> : <Footer />}

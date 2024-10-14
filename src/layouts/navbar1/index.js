@@ -49,12 +49,19 @@ const Navbar1 = React.memo(() => {
         <div className="h-auto w-full bg-white rounded-[10px] mt-2 p-5 lg:hidden transition">
           <div className="flex gap-3 items-center flex-col ">
             {renderNavigationItems}
-            <button
-              onClick={handleOpen}
-              className="bg-[#294dff] px-5 py-3 text-white rounded-[30px] font-[500]"
+            <div
+              className=" cursor-pointer"
+              onClick={() =>
+                window.open(
+                  "https://buy.stripe.com/4gw5mn0nm0mTfUk3",
+                  "_blank"
+                )
+              }
             >
-              Get a Free Quote
-            </button>
+              <button className= "  button-bg px-4 py-3 text-white rounded-[30px] font-[500] element3">
+                Buy Now - $99
+              </button>
+            </div>
           </div>
         </div>
       )}

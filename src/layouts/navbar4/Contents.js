@@ -55,13 +55,13 @@ const Contents = React.memo(() => {
             <button
               onClick={() =>
                 window.open(
-                  "https://buy.stripe.com/bIYg11figfhN7nO4ic",
+                  "https://buy.stripe.com/4gw5mn0nm0mTfUk3",
                   "_blank"
                 )
               }
               className="bg-[#f7a72b] md:mt-8  w-[250px] px-4 py-3 text-white rounded-[30px] font-[500] element  "
             >
-              Buy Now - $149.99
+              Buy Now - $99.99
               <ArrowForward sx={{ color: "white" }} />{" "}
             </button>
 
@@ -89,18 +89,13 @@ const Contents = React.memo(() => {
 
             <button
               onClick={handleOpen}
-              className="pl-1 py-1 w-[200px] md:mt-8   pr-5 text-white  rounded-[30px] font-[500] border border-[rgba(0,0,0,0.3)]  flex items-center gap-2 element2 bg-[#f7a72b] hover:shadow-lg  "
+              className="pl-1 py-1 w-[200px] md:mt-8   pr-5 text-white  rounded-[30px] font-[500] border   flex items-center gap-2 element2 bg-[#f7a72b] hover:shadow-lg  "
             >
               <div
-                style={{
-                  border: "1px solid rgba(0,0,0,0.3)",
-                  borderRadius: "20px",
-                  height: "40px",
-                  width: "40px",
-                }}
-                className="flex justify-center items-center bg-white "
+                
+                className="flex justify-center items-center p-4   "
               >
-                <PlayArrow sx={{ color: "blue" }} />
+                
               </div>
               Take My Exam{" "}
             </button>
