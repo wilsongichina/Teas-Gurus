@@ -60,7 +60,7 @@ const Contents = React.memo(() => {
 
             <button
               onClick={() =>
-                window.open("https://buy.stripe.com/4gw5mn0nm0mTfUk3", "_blank")
+                window.open("https://buy.stripe.com/4gw5mn0nm0mTfUk3e9", "_blank")
               }
               className="bg-[#f7a72b] md:mt-8  w-[250px] px-4 py-3 text-white rounded-[30px] font-[500] element  "
             >

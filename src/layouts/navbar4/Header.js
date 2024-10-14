@@ -72,7 +72,7 @@ const Header = ({ show, setShow }) => {
       <div
         className="lg:block hidden cursor-pointer"
         onClick={() =>
-          window.open("https://buy.stripe.com/4gw5mn0nm0mTfUk3", "_blank")
+          window.open("https://buy.stripe.com/4gw5mn0nm0mTfUk3e9", "_blank")
         }
       >
         <button className="button-bg lg:px-5 py-3 text-white rounded-[30px] font-[500] element3">
