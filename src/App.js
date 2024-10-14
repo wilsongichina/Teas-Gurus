@@ -4,6 +4,8 @@ import {
   Routes,
   Route,
   useLocation,
+useNavigate,
+Navigate
 } from "react-router-dom";
 import React, { lazy, Suspense } from "react";
 import Footer from "./layouts/footer";
@@ -28,14 +30,8 @@ function App() {
 
 function AppContent() {
   const location = useLocation();
-  const urls = [
-    "/prices",
-    "/blog",
-    "/faq",
-    "/about",
-    "/How-it-Works",
-    "/teas",
-  ];
+  const navigate = useNavigate()
+  const urls = ["/prices", "/blog", "/faq", "/about", "/How-it-Works", "/teas"];
 
   return (
     <>
@@ -46,7 +42,9 @@ function AppContent() {
         <Route exact path="/faq" element={<Faq />} />
         <Route exact path="/prices" element={<Prices />} />
         <Route exact path="/teas" element={<Question />} />
-        <Route path="*" element={<Home />} />
+        <Route path="*"
+        element={<Navigate to="/" replace={true} />}/>
+        
       </Routes>
 
       {urls.includes(location.pathname) ? <Footer2 /> : <Footer />}

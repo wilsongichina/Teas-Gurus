@@ -40,9 +40,9 @@ const Contents = React.memo(() => {
               We Are Teas Gurus
             </h1>
 
-            <h2 className="mt-4 font-bold ">
+            <h1 className="mt-4 font-bold text-3xl  ">
             Pay Someone to Do My TEAS Exam or Buy Exact TEAS Questions
-            </h2>
+            </h1>
 
             <h2 className="mt-4 font-bold ">
               The Versatile Online Teas Proctored Help Company for Students.
