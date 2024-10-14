@@ -69,14 +69,10 @@ const Contents = React.memo(() => {
             </button>
 
             <button
-              onClick={() =>
-                document
-                  .getElementById("how")
-                  .scrollIntoView({ behavior: "smooth" })
-              }
+             onClick={()=>navigate("/how-it-works")} 
               className="pl-1 py-1 w-[200px] md:mt-8   pr-5 text-black rounded-[30px] font-[500] border border-[rgba(0,0,0,0.3)] hover:bg-white flex items-center gap-2 element2"
             >
-              <div
+              <div 
                 style={{
                   border: "1px solid rgba(0,0,0,0.3)",
                   borderRadius: "20px",

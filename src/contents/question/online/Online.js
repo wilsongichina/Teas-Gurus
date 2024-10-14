@@ -7,11 +7,11 @@ const Online = () => {
         <div className="w-[80%]">
           <div className="flex flex-col  md:flex-row md:justify-between gap-10 mt-4 ">
             <div className="md:w-[50%]">
-              <img src="/question/12.jpg" className="h-[550px] w-[100%]" />
+              <img src="/question/pass.jpg" className="h-[550px] w-[100%] object-contain" />
             </div>
             <div className="md:w-[50%]">
               <h1 className="font-bold mt-[120px] text-center text-green-400">
-                Pass the First Time
+              Pass the First Time
               </h1>
               <h1 className=" text-black mt-6  text-justify  ">
                 We are dedicated to offering students the highest exact
@@ -38,7 +38,7 @@ const Online = () => {
           <div className="flex flex-col  md:flex-row md:justify-between gap-10 mt-4 ">
             <div className="md:w-[50%]">
               <h1 className="font-bold mt-[120px] text-center text-green-400">
-                Latest TEAS 7 Exams 2024
+              Latest TEAS 7 Exams 2024
               </h1>
               <h1 className=" text-black mt-6  text-justify   ">
                 Ace the TEAS 7 exam with ease! This all-in-one guide contains
@@ -57,7 +57,7 @@ const Online = () => {
               </p>
             </div>
             <div className="md:w-[50%]">
-              <img src="/question/13.jpg" className="h-[550px] w-[100%]" />
+              <img src="/question/latest.jpg" className="h-[550px] w-[100%] object-contain" />
             </div>
           </div>
         </div>

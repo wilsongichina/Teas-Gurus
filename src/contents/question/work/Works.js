@@ -13,7 +13,7 @@ const Works = () => {
           </h1>
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 mt-10 px-10  ">
             <div>
-              <img src="/question/11.jpg" className="h-[250px] w-[100%]" />
+              <img src="/question/makep.png" className="h-[250px] w-[100%]" />
               <h1 className="font-bold text-black  text-2xl text-center mt-4 ">
               Make Payment
               </h1>
@@ -22,7 +22,7 @@ const Works = () => {
               </h1>
             </div>
             <div>
-              <img src="/question/12.jpg" className="h-[250px] w-[100%]" />
+              <img src="/question/accessf.png" className="h-[250px] w-[100%]" />
               <h1 className="font-bold text-black  text-2xl text-center mt-4 ">
               Access the Files
               </h1>
@@ -31,7 +31,7 @@ const Works = () => {
               </h1>
             </div>
             <div>
-              <img src="/question/13.jpg" className="h-[250px] w-[100%]" />
+              <img src="/question/revisee.png" className="h-[250px] w-[100%]" />
               <h1 className="font-bold text-black  text-2xl text-center mt-4 ">
               Revising the Materials
               </h1>
