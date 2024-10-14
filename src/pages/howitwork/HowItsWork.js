@@ -11,7 +11,7 @@ const HowItsWork = () => {
     <>
     <Helmet>
         <title>
-        How it Works – TEAS Gurus
+        How Does Our Take My TEAS Exam Service Work
         </title>
         <meta name="description" content="How it Works - TEAS Gurus" />
       </Helmet>
