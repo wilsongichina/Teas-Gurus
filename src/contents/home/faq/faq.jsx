@@ -90,12 +90,12 @@ const Faq = () => {
   return (
     <>
       <div className="w-[100%] flex justify-center item-center ">
-        <div className="w-[100%] bg-[#E4F0FD] my-10  rounded-2xl   ">
+        <div className="w-[100%] bg-[#E4F0FD] my-5  rounded-2xl   ">
           <h1 className="font-bold text-center mb-6  mt-[100px] text-3xl   ">
           FAQS
           </h1>
           <div className="flex justify-center items-center">
-            <div className="w-[90%] bg-white my-10   rounded-lg   border-b-2">
+            <div className="w-[90%] bg-white my-5   rounded-lg   border-b-2">
               {memoizedFaqItems}
             </div>
           </div>

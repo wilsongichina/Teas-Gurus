@@ -20,6 +20,7 @@ import Faq from "./pages/faq/Faq";
 import Prices from "./pages/prices/Prices";
 import Question from "./pages/question/Question";
 import ThankYou from "./pages/thankyou/ThankYou";
+import ThankYou from "./pages/thankyou/ThankYou";
 
 function App() {
   return (
