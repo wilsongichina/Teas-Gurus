@@ -25,11 +25,11 @@ const QuoteForm = ({ handleClose }) => {
     });
   };
 
-  // if (state.succeeded) {
-  //   handleClose();
-  //   navigate("/thanks");
-  //   return <p>Thanks for your submission!</p>;
-  // }
+  if (state.succeeded) {
+    handleClose();
+    navigate("/thanks");
+    return <p>Thanks for your submission!</p>;
+  }
 
   console.log('formData',formData);
   return (

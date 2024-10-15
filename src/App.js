@@ -19,6 +19,7 @@ import HowItsWork from "./pages/howitwork/HowItsWork";
 import Faq from "./pages/faq/Faq";
 import Prices from "./pages/prices/Prices";
 import Question from "./pages/question/Question";
+import ThankYou from "./pages/thankyou/ThankYou";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function AppContent() {
         <Route exact path="/faq" element={<Faq />} />
         <Route exact path="/prices" element={<Prices />} />
         <Route exact path="/teas" element={<Question />} />
+        <Route exact path="/thanks" element={<ThankYou />} />
         <Route path="*"
         element={<Navigate to="/" replace={true} />}/>
         
