@@ -30,28 +30,6 @@ const Doer = () => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-
-      {/* <div className="w-[100%] my-[100px]   flex justify-center items-center">
-        <div className="w-[100%]  lg:flex lg:gap-12  ">
-          <div className="flex  lg:hidden ">
-            <img className="h-[90%]" src="./home/class2.webp"></img>
-          </div>
-
-          
-          
-        </div>
-      </div>
-
-      <div className="w-[100%] my-[100px]   flex justify-center items-center">
-       
-      </div> */}
-   
-    
-
-      
->>>>>>> 21afa941882fca36ee6df3ce12c0648f11cc2c2b
     </>
   );
 };

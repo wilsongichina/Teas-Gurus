@@ -14,14 +14,14 @@ const socialIcons = [
 ];
 
 const companyLinks = [
-  { text: "About Us", href: "#" },
-  { text: "FAQS", href: "#" },
-  { text: "How it Works", href: "#" },
+  { text: "About Us", href: "/about" },
+  { text: "FAQS", href: "/faq" },
+  { text: "How it Works", href: "/how-it works" },
 ];
 
 const legalLinks = [
   { text: "Guarentees", href: "#" },
-  { text: "Privacy Policy", href: "#" },
+  { text: "Privacy Policy", href: "privacy-policy" },
   { text: "Terms & Conditions", href: "#" },
   { text: "Money Back Guarentee", href: "#" },
 ];

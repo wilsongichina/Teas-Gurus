@@ -20,7 +20,8 @@ import Faq from "./pages/faq/Faq";
 import Prices from "./pages/prices/Prices";
 import Question from "./pages/question/Question";
 import ThankYou from "./pages/thankyou/ThankYou";
-import ThankYou from "./pages/thankyou/ThankYou";
+import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
+
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
 function AppContent() {
   const location = useLocation();
   const navigate = useNavigate()
-  const urls = ["/prices", "/blog", "/faq", "/about", "/How-it-Works", "/teas"];
+  const urls = ["/prices", "/blog", "/faq", "/about", "/How-it-Works", "/teas",];
 
   return (
     <>
@@ -44,7 +45,8 @@ function AppContent() {
         <Route exact path="/faq" element={<Faq />} />
         <Route exact path="/prices" element={<Prices />} />
         <Route exact path="/teas" element={<Question />} />
-        <Route exact path="/thanks" element={<ThankYou />} />
+        <Route exact path="/teas/thank-you" element={<ThankYou />} />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*"
         element={<Navigate to="/" replace={true} />}/>
         

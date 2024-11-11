@@ -27,7 +27,7 @@ const QuoteForm = ({ handleClose }) => {
 
   if (state.succeeded) {
     handleClose();
-    navigate("/thanks");
+    navigate("/teas/thank-you");
     return <p>Thanks for your submission!</p>;
   }
 
