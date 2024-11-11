@@ -75,10 +75,10 @@ const Footer = React.memo(()=> {
               </div>
 
               <div className="flex flex-col gap-3">
-                <div className="text-[20px] font-[700] text-white">Legal</div>
-                <div className="text-[#999] font-[500]">Guarentees</div>
-                <div onClick={()=>navigate('/privacy-policy')} className="text-[#999] font-[500]">Privacy Policy</div>
-                <div className="text-[#999] font-[500]">Terms & Conditions</div>
+                <div className="text-[20px] font-[700] text-white cursor-pointer">Legal</div>
+                <div className="text-[#999] font-[500] cursor-pointer">Guarentees</div>
+                <div onClick={()=>navigate('/privacy-policy')} className="text-[#999] font-[500] cursor-pointer">Privacy Policy</div>
+                <div onClick={()=>navigate('/terms-and-conditions')} className="text-[#999] font-[500] cursor-pointer">Terms & Conditions</div>
                 <div className="text-[#999] font-[500]">
                   Money Back Guarentee
                 </div>

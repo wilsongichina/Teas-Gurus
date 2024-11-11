@@ -21,8 +21,8 @@ const companyLinks = [
 
 const legalLinks = [
   { text: "Guarentees", href: "#" },
-  { text: "Privacy Policy", href: "privacy-policy" },
-  { text: "Terms & Conditions", href: "#" },
+  { text: "Privacy Policy", href: "/privacy-policy" },
+  { text: "Terms & Conditions", href: "/terms-and-conditions" },
   { text: "Money Back Guarentee", href: "#" },
 ];
 

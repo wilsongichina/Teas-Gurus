@@ -21,6 +21,7 @@ import Prices from "./pages/prices/Prices";
 import Question from "./pages/question/Question";
 import ThankYou from "./pages/thankyou/ThankYou";
 import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
+import TermsCondiotion from "./pages/terms-condition/TermsCondition";
 
 
 function App() {
@@ -47,6 +48,7 @@ function AppContent() {
         <Route exact path="/teas" element={<Question />} />
         <Route exact path="/teas/thank-you" element={<ThankYou />} />
         <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route exact path="/terms-and-conditions" element={<TermsCondiotion />} />
         <Route path="*"
         element={<Navigate to="/" replace={true} />}/>
         
