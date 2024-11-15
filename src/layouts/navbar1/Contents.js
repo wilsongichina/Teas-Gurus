@@ -31,6 +31,15 @@ const Contents = React.memo(() => {
 
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+
+  const downloadPdf = () => {
+    const link = document.createElement('a');
+    link.href = `${process.env.PUBLIC_URL}/english-section-questions.pdf`;
+    link.download = 'english-section-questions.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
   return (
     <div className="md:mt-[90px] mt-[50px]">
       <div className=" flex flex-col  md:flex-row  md:justify-end   gap-[100px] ">
@@ -58,6 +67,9 @@ const Contents = React.memo(() => {
               alt="Arrow"
             />
 
+        <button onClick={downloadPdf} className="bg-[#f7a72b] md:mt-8  w-[250px] px-4 py-3 text-white rounded-[30px] font-[500] element  ">
+            Download ENG Set - Free</button>
+
             <button
               onClick={() =>
                 window.open("https://buy.stripe.com/4gw5mn0nm0mTfUk3e9", "_blank")
@@ -68,7 +80,7 @@ const Contents = React.memo(() => {
               <ArrowForward className="ml-2  " sx={{ color: "white" }} />{" "}
             </button>
 
-            <button
+            {/* <button
              onClick={()=>navigate("/how-it-works")} 
               className="pl-1 py-1 w-[200px] md:mt-8   pr-5 text-black rounded-[30px] font-[500] border border-[rgba(0,0,0,0.3)] hover:bg-white flex items-center gap-2 element2"
             >
@@ -84,7 +96,7 @@ const Contents = React.memo(() => {
                 <PlayArrow sx={{ color: "blue" }} />
               </div>
               How it Works
-            </button>
+            </button> */}
 
             <button
               onClick={handleOpen}
