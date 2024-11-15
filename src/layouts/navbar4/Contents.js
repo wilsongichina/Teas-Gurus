@@ -30,6 +30,15 @@ const Contents = React.memo(() => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
+  const downloadPdf = () => {
+    const link = document.createElement('a');
+    link.href = `${process.env.PUBLIC_URL}/english-section-questions.pdf`;
+    link.download = 'english-section-questions.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+
   return (
     <div className="md:mt-[90px] mt-[50px]">
       <div className=" flex flex-col  md:flex-row  md:justify-end   gap-[100px] ">
@@ -52,6 +61,9 @@ const Contents = React.memo(() => {
               alt="Arrow"
             />
 
+<button onClick={downloadPdf} className="bg-[#f7a72b] md:mt-8  w-[250px] px-4 py-3 text-white rounded-[30px] font-[500] element  ">
+Download ENG Set - Free</button>
+
             <button
               onClick={() =>
                 window.open(
@@ -65,7 +77,9 @@ const Contents = React.memo(() => {
               <ArrowForward sx={{ color: "white" }} />{" "}
             </button>
 
-            <button
+            
+
+            {/* <button
               onClick={() =>
             document
               .getElementById("how")
@@ -85,7 +99,7 @@ const Contents = React.memo(() => {
                 <PlayArrow sx={{ color: "blue" }} />
               </div>
               How it Works
-            </button>
+            </button> */}
 
             <button
               onClick={handleOpen}
